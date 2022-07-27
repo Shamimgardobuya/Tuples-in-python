@@ -49,7 +49,7 @@ class A:
     def __init__(self):
         self.multiply(15)
     def multiply(self, i):
-        self.i = 4 * i
+        self.i = 6 * i
 class B(A):     #child class B takes A as argument
     def __init__(self):
         super().__init__()   #super key word
