@@ -47,5 +47,13 @@ def matrix():
 matrix()
 
          
-   
+   #loop through the original list using lists with zip function
+def counting (p):
+   z=""
+   x=0
+   while x<len(p):
+      z+=p[x]
+      x+=1
+   print(f"{z} is the new word")
+counting(["c","a","t"])
 
