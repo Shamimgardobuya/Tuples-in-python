@@ -30,6 +30,17 @@ while start<=end:
 
     start=start+1                             #for the increament
    
-        
+#  Write a Python program to get the length 
+#  in bytes of one array item in the internal representation. 
+    # create an array of numberss
+    #loop through each element and convert the items to string
+    #find the byte of the element in array.
+def byte(x):
+    for i in x:
+       print( bytes(i))
+    # for i in x:
+       print( bytes(x))
+       
+byte([3,4,5,6,7])
 
     
