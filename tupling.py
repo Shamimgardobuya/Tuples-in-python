@@ -57,3 +57,12 @@ def counting (p):
    print(f"{z} is the new word")
 counting(["c","a","t"])
 
+   #create a list and loop through it
+   #using a for loop
+   #print each item
+
+def list_2():
+   my_list=[1,2,3,4,5]
+   for i in my_list:
+      print(i)
+list_2()
