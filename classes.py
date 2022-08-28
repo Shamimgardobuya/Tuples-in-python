@@ -59,7 +59,26 @@ class B(A):     #child class B takes A as argument
     #     self.i = 2 * i      
 obj = B()                   #creating object from B,in polymorphism we do
                            #python will override parent class method just give it under child class
+#PALINDROME WORDS USING PYTHON
+#using 2 pointer fnuction 
+  #create a function and pass in a word as a paramater
+  #split the string
+  #create a starting point and ending point of the string
+  #check condition for the lenghts to be equal
+  #using while loop,contiinue to loop through tthe string
+  #if more characters are similar,word is paramter
+def palindrome(wordx):
+    p=wordx.split()
+    end=len(p)-1
+    start=p[0]
+    st=0
+    while(start<end):
+        p[start],p[end]=p[end],p[start]
+        start-=1
+        end+=1
+    print("Hello World")
 
+#validating anarams using python.
 
 
 
