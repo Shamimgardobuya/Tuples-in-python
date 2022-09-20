@@ -32,6 +32,7 @@ def min_mum(tup3):
          word3=i
    print(word3)
 min_mum((2,4,5,6))
+
               #Row-wise element Addition in Tuple Matrix
 #create a list inside a list
 #inside list create elements of tuples

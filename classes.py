@@ -78,8 +78,52 @@ def palindrome(wordx):
         end+=1
     print("Hello World")
 
-#validating anarams using python.
+#validating anagrams using python.
+#create a function with a word as parameter
+#request input from user and compare the length of the two strings and 
+#loop through the string and compare
+#if characters are equal to the other
+def anagram(my_word):
+    enter_word=str(input(f"Enter the anagram of {my_word} "))
+    split_enter=enter_word.split()
+    wording2=my_word.split()
+    for p in wording2:
+     for i in split_enter:
+      if len(split_enter) == len(wording2) and ( i==p):
+        print("Yay! this is an anagram")
+      else:
+        # print("Try again")
+        #  return anagram(my_word)
+        print('hello') 
 
+# anagram("secure")
+   #write program for summing up list items
+
+   #create an initial variable as sum and assign it to 0
+   #loop through using while loop
+   #add each varable to the sum 
+   #print the sum
+def summ_list(my_list):
+    sum=0
+    initial=0
+    while(initial<len(my_list)):
+        sum+=initial
+    print(sum)
+summ_list([5,7,8,9])
+# Write a Python program to get a list,
+#  sorted in increasing order by the last element in each tuple
+#   from a given list of non-empty tuples.
+
+  #create a function and pass in a list of tuples as parameters
+  #create starting variable of the list
+  #loop through whole list
+  #
+list_tuple=[(1,2,3),(5,6,7),(8,9,10)]
+my_start=list_tuple[0][2]
+for i in list_tuple:
+    if i 
+
+  
 
 
     
