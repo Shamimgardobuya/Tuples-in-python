@@ -34,3 +34,44 @@ def linear_search():
           return 1
 linear_search()
 
+# Given two lists, l1 and l2, 
+# write a program to create a third list l3 
+# by picking an odd-index element from the list l1 
+# and even index elements from the list l2.
+
+  #cretae a function 
+  #inside the block of function creae listone and two
+  #loop through and find odd indexes from list one
+  #loop through and find even indices in list two
+  #append the items to list 3
+
+
+def three():
+    list_one=[1,2,3,4,5,6]
+    list_two=[3,4,5,6]
+    list_three=[]
+    for i in range(0,len(list_one)):    #looping through a list using a range function
+        if list_one[i]%2!=0:            #able to find index
+            print(list_one[i])
+            list_three.append(i)        #adds element at end of the list 
+    print(list_three)
+            # return 0
+        # else:
+        #     print("hi")
+    y=0
+    while y < len(list_two):
+        # print("Hello Liz")
+        if list_two[y]%2==0:
+            print(y)
+            list_three.append(y)
+            print(list_three)
+            y+=1
+        # else:
+        #     # return 1
+        #     print("Hello")
+        #     return 0
+three()
+
+
+
+
