@@ -105,7 +105,6 @@ list_three=[4,5,6]
 
 mapping=map(lambda x,y,z:x+y+z,list_one,list_two,list_three)
 print(f"The addition of the elements in the three lists  is {list(mapping)}")
-   
 
 #    Update the first set with items 
 #    that don’t exist in the second set

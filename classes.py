@@ -3,9 +3,9 @@
 #create a function  inside the class of reversing 
 
 class Reversing:
-    def __init__(self,word):
+    def __init__(self,word): #initializing object
         self.word=word
-    def reversing(self):
+    def reversing(self):      
         # p=self.word[::-1]
         z=list(self.word)
         start=0
@@ -70,13 +70,15 @@ obj = B()                   #creating object from B,in polymorphism we do
 def palindrome(wordx):
     p=wordx.split()
     end=len(p)-1
+    end2=p[end]
     start=p[0]
-    st=0
-    while(start<end):
+    while(start<end2):
         p[start],p[end]=p[end],p[start]
         start-=1
         end+=1
-    print("Hello World")
+        print(start)
+        print(f"The reversed string is {''.join(p)}")
+palindrome("Shamim")
 
 #validating anagrams using python.
 #create a function with a word as parameter
@@ -120,8 +122,8 @@ summ_list([5,7,8,9])
   #
 list_tuple=[(1,2,3),(5,6,7),(8,9,10)]
 my_start=list_tuple[0][2]
-for i in list_tuple:
-    if i 
+# for i in list_tuple:
+    # if i 
 
   
 
